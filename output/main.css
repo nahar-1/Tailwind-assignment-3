@@ -6,4 +6,12 @@
     .ul{
         @apply md:text-2xl text-xl font-medium cursor-pointer hover:underline hover:scale-105 transition-all duration-300 ;
     }
+
+    .nav{
+        @apply text-3xl font-bold text-[#20484F] cursor-pointer hover:underline hover:scale-105 transition-all duration-300;
+    }
+
+    .footul{
+         @apply text-xl font-normal text-[#20484F] cursor-pointer   hover:scale-105 transition-all duration-300;
+    }
 }
