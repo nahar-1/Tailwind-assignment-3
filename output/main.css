@@ -14,4 +14,7 @@
     .footul{
          @apply text-xl font-normal text-[#20484F] cursor-pointer   hover:scale-105 transition-all duration-300;
     }
+    .btn{
+        @apply  text-[#F44335] items-center border-[#F44335] md:border-4 border-2 md:px-8 px-6 md:py-4 py-3 md:text-2xl text-xl font-bold rounded-full hover:scale-105 transition-all duration-300;
+    }
 }
