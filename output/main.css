@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    .ul{
+        @apply md:text-2xl text-xl font-medium cursor-pointer hover:underline hover:scale-105 transition-all duration-300 ;
+    }
+}
