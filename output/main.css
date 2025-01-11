@@ -4,7 +4,7 @@
 
 @layer{
     .ul{
-        @apply md:text-2xl text-xl font-medium cursor-pointer hover:underline hover:scale-105 transition-all duration-300 ;
+        @apply md:text-2xl text-xl font-medium cursor-pointer hover:underline hover:scale-105 transition-all duration-300 py-4 px-6 ;
     }
 
     .nav{
